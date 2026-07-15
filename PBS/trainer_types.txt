@@ -399,3 +399,9 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
+#-------------------------------
+[BESTFRIEND]
+Name = Best Friend
+Gender = Female
+BaseMoney = 60
+#-------------------------------

@@ -116,3 +116,82 @@ Pokemon = CHARIZARD,63
     Item = SITRUSBERRY
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
+#-------------------------------
+# PARTNER TRAINER
+#----------------------------
+[BESTFRIEND,Karen,1]
+LoseText = ...
+Pokemon = SMOLIV,17
+    IV = 20,20,20,20,20,20
+    Item = BERRYJUICE
+    Moves = RAZORLEAF,TACKLE,GRASSYTERRAIN,HELPINGHAND
+#-------------------------------
+# NORMAL TRAINERS
+#-------------------------------
+[TWINS,Lea&Lisa]
+LoseText = That's not fair!
+Pokemon = PICHU,15
+    AbilityIndex = 2
+    Nature = MODEST
+    Item = MAGNET
+    Moves = THUNDERSHOCK,DISARMINGVOICE
+Pokemon = CLEFFA,15
+    AbilityIndex = 2
+    Nature = BOLD
+    Item = KEBIABERRY
+    Moves = SHOCKWAVE,LIFEDEW,DISARMINGVOICE
+#-------------------------------
+[LASS,Sylvie]
+LoseText = Your duo works pretty well!
+Pokemon = TOEDSCOOL,16
+    AbilityIndex = 1
+    Item = ORANBERRY
+    Nature = MODEST
+    Moves = MEGADRAIN,RAGEPOWDER,WRAP,POISONPOWDER
+#------------------------------
+[YOUNGSTER,Marcelino]
+LoseText = I think my team is not fit for this forest...
+Pokemon = NACLI,15
+    Moves = ROCKPOLISH,SMACKDOWN,MUDSHOT
+Pokemon = TYROGUE,17
+    Moves = MACHPUNCH,FAKEOUT
+    Item = BLACKBELT
+#------------------------------
+[BUGCATCHER,Mike]
+LoseText = I don't have enough Insects to win !
+Pokemon = COMBEE,17
+    Moves = TAILWIND,STRUGGLEBUG,GUST,BUGBITE
+    Item = CHARTIBERRY
+Pokemon = TAROUNTULA,17
+    IV = 15,0,15,15,15,15
+    Nature = MODEST
+    Moves = SKITTERSMACK,ELECTROWEB,ACIDSPRAY,MEGADRAIN
+Pokemon = SPINARAK,17
+    Moves = NIGHTSHADE,INFESTATION,PROTECT
+    Item = LEFTOVERS
+#------------------------------
+[PICNICKER,Jina]
+LoseText = I'm sorry, brother !
+Pokemon = BUDEW,18
+    AbilityIndex = 1
+    Moves = SLUDGEWAVE
+    IV = 15,15,15,15,0,15
+    Nature = JOLLY
+Pokemon = BUNEARY,18
+    AbilityIndex = 1
+    Item = STICKYBARB
+    Moves = BRUTALSWING,SWITCHEROO
+#------------------------------
+[CAMPER,Joe]
+LoseText = Me too, sis' !
+Pokemon = WOOPER,18
+    AbilityIndex = 1
+    Moves = SURF
+    IV = 15,15,15,15,0,15
+    Nature = JOLLY
+    Item = RINDOBERRY
+Pokemon = BONSLY,18
+    AbilityIndex = 2
+    Moves = BULLDOZE,COPYCAT
+    Nature = TIMID
+#------------------------------

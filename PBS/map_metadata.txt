@@ -3,15 +3,33 @@
 [001]   # Intro
 Name = Intro
 #-------------------------------
-[002]   # Lappet Town
-Name = Lappet Town
+[002]   # Gracewood Clearing
+Name = Gracewood Clearing
 Outdoor = true
 ShowArea = true
-MapPosition = 0,13,12
+SnapEdges = true
+HealingSpot = 6,22,6
 BattleBack = field
 #-------------------------------
-[003]   # Player's house
-Name = \PN's house
-HealingSpot = 2,8,8
-MapPosition = 0,13,12
+[003]   # Gracewood Footpath
+Name = Gracewood Footpath
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+BattleBack = field
+#-------------------------------
+[004]   # Gracewood Forest
+Name = Gracewood Forest
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+BattleBack = forest
+#-------------------------------
+[005]   # Freesia Town
+Name = Freesia Town
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+HealingSpot = 10,9,8
+BattleBack = indoor1
 #-------------------------------
