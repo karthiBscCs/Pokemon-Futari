@@ -6590,3 +6590,17 @@ FieldUse = Direct
 Flags = KeyItem
 Description = When it's turned on, all Pokémon get a share of a battle's Exp. Points without battling.
 #-------------------------------
+[MUSHROOM]
+Name = Mushroom
+NamePlural = Mushrooms
+Pocket = 1
+Price = 500
+Description = A regular wild mushroom.
+#-------------------------------
+[FIREWOOD]
+Name = Firewood
+NamePlural = Firewood
+Pocket = 1
+Price = 200
+Description = Dry wood.
+#-------------------------------
