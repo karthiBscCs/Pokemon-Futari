@@ -6571,3 +6571,22 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A sharp tool used to cut down trees.
+#-------------------------------
+[EXPALL]
+Name = Exp. Share
+NamePlural = Exp. Shares
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = When it's turned on, all Pokémon get a share of a battle's Exp. Points without battling.
+#-------------------------------
+[EXPALLOFF]
+Name = Exp. Share
+NamePlural = Exp. Shares
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = When it's turned on, all Pokémon get a share of a battle's Exp. Points without battling.
+#-------------------------------

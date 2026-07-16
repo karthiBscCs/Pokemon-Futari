@@ -1,37 +1,17 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[002] # Lappet Town
-Water,2
-    60,TENTACOOL,14,19
-    30,MANTYKE,15,16
-    10,REMORAID,14,16
-OldRod
-    100,MAGIKARP,16,19
-GoodRod
-    60,BARBOACH,17,18
-    20,KRABBY,15,16
-    20,SHELLDER,16,19
-SuperRod
-    40,CHINCHOU,17,19
-    40,QWILFISH,16,19
-    15,CORSOLA,15,18
-    5,STARYU,15,17
-#-------------------------------
-[005] # Route 1
+[003] # Gracewood Footpath
 Land,21
-    40,PIDGEY,11,14
-    40,RATTATA,11,14
-    9,PIDGEY,11,13
-    9,RATTATA,11,13
-    1,PIDGEY,14
-    1,RATTATA,14
-LandNight,21
-    39,RATTATA,10,14
-    30,HOOTHOOT,10,13
-    20,SPINARAK,8,12
-    9,HOOTHOOT,10,14
-    1,HOOTHOOT,14
-    1,RATTATA,15
-PokeRadar,20
-    100,STARLY,12,15
+    30,WOOPER,14
+    30,HOPPIP,14
+    30,FIDOUGH,14
+    10,SMEARGLE,15
+#-------------------------------
+[004] # Gracewood Forest
+Land,21
+    25,SPINARAK,15
+    25,BONSLY,15
+    25,TOEDSCOOL,15
+    15,COMBEE,16
+    10,BUDEW,16
 #-------------------------------

@@ -10,11 +10,11 @@ module QuestModule
     :ID => "1",
     :Name => "Gather Seasonal Food and Cook",
     :QuestGiver => "Karen",
-    :Stage1 => "Gather berries and mushrooms, collect a little honey",
+    :Stage1 => "Gather ingredients",
 	:Stage2 => "Cook & Share a Meal",
     :Location1 => "Gracewood Forest",
 	:Location2 => "Home",
-    :QuestDescription => "Gather berries and mushrooms, little honey and cook.",
+    :QuestDescription => "Gather 4 berries, 3 mushrooms, 2 honey and 3 firewoods.",
     :RewardString => "???"
   }
 end
