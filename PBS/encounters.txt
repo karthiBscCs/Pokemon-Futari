@@ -1,14 +1,14 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [003] # Gracewood Footpath
-Land,21
+Land,10
     30,WOOPER,14
     30,HOPPIP,14
     30,FIDOUGH,14
     10,SMEARGLE,15
 #-------------------------------
 [004] # Gracewood Forest
-Land,21
+Land,10
     25,SPINARAK,15
     25,BONSLY,15
     25,TOEDSCOOL,15
