@@ -12,8 +12,10 @@ module QuestModule
     :QuestGiver => "Karen",
     :Stage1 => "Gather ingredients",
 	:Stage2 => "Cook & Share a Meal",
+	:Stage3 => "Deliver Food to Chief",
     :Location1 => "Gracewood Forest",
 	:Location2 => "Home",
+	:Location3 => "Freesia Town",
     :QuestDescription => "Gather 4 berries, 3 mushrooms, 2 honey and 3 firewoods.",
     :RewardString => "???"
   }
