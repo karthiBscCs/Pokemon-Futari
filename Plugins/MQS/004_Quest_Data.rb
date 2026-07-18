@@ -12,7 +12,7 @@ module QuestModule
     :QuestGiver => "Karen",
     :Stage1 => "Gather ingredients",
 	:Stage2 => "Cook & Share a Meal",
-	:Stage3 => "Deliver Food to Chief",
+	:Stage3 => "Deliver Food to Elders house",
     :Location1 => "Gracewood Forest",
 	:Location2 => "Home",
 	:Location3 => "Freesia Town",
