@@ -1,0 +1,56 @@
+#-------------------------------
+[TM101]
+Name = TM101
+NamePlural = TM101s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = WEATHERBALL
+Description = An attack move that varies in power and type depending on the weather.
+#-------------------------------
+[TM102]
+Name = TM102
+NamePlural = TM102s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = SKITTERSMACK
+Description = The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
+#-------------------------------
+[TM103]
+Name = TM103
+NamePlural = TM103s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = KNOCKOFF
+Description = The user slaps down the target's held item, preventing that item from being used in the battle.
+#-------------------------------
+[TM104]
+Name = TM104
+NamePlural = TM104s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = RETURN
+Description = A full-power attack that grows more powerful the more the user likes its Trainer.
+#-------------------------------
+[TM105]
+Name = TM105
+NamePlural = TM105s
+Pocket = 4
+Price = 3000
+BPPrice = 32
+FieldUse = TR
+Flags = Fling_90
+Move = VENOSHOCK
+Description = The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned.
+#-------------------------------

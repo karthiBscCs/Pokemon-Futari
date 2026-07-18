@@ -1,134 +1,24 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+﻿
 #-------------------------------
-[CAMPER,Liam]
-LoseText = A very good battle, indeed!
-Pokemon = DIGLETT,10
-Pokemon = BONSLY,11
-#-------------------------------
-[LEADER_Brock,Brock]
-Items = FULLRESTORE,FULLRESTORE
-LoseText = Very good.
-Pokemon = GEODUDE,12
-    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
-    AbilityIndex = 0
-    Gender = male
-    IV = 20,20,20,20,20,20
-Pokemon = ONIX,14
-    Name = Rocky
-    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
-    AbilityIndex = 0
-    Item = SITRUSBERRY
-    Gender = male
-    IV = 20,20,20,20,20,20
-    Shiny = true
-    Ball = HEAVYBALL
-#-------------------------------
-[TEAMROCKET_M,Grunt,1]
-LoseText = You're too good for me!
-Pokemon = WEEPINBELL,21
-    Shadow = true
-#-------------------------------
-[TEAMROCKET_F,Grunt,1]
-LoseText = You're too good for me!
-Pokemon = BURMY,19
-Pokemon = WINGULL,19
-Pokemon = ELECTABUZZ,20
-    Shadow = true
-#-------------------------------
-[YOUNGSTER,Ben]
-LoseText = Aww, I lost.
-Pokemon = RATTATA,11
-Pokemon = EKANS,11
-#-------------------------------
-[CAMPER,Jeff]
-LoseText = A very good battle, indeed!
-Pokemon = SPEAROW,16
-Pokemon = SENTRET,16
-#-------------------------------
-[CAMPER,Jeff,1]
-LoseText = You beat me again!
-Pokemon = FEAROW,29
-Pokemon = FURRET,29
-#-------------------------------
-[PICNICKER,Susie]
-LoseText = Defeated! Oh my!
-Pokemon = MEOWTH,18
-#-------------------------------
-[PICNICKER,Susie,1]
-LoseText = Defeated! Oh my!
-Pokemon = PERSIAN,32
-#-------------------------------
-[HIKER,Ford]
-LoseText = You're too good for me!
-Pokemon = MACHOP,19
-#-------------------------------
-[FISHERMAN,Andrew]
-LoseText = Washed out!
-Pokemon = MAGIKARP,14
-Pokemon = MAGIKARP,18
-#-------------------------------
-[BEAUTY,Bridget]
-LoseText = My Skitty!
-Pokemon = SKITTY,18
-#-------------------------------
-[LASS,Crissy]
-LoseText = You didn't have to win so convincingly!
-Pokemon = PLUSLE,17
-Pokemon = MINUN,17
-#-------------------------------
-[COOLCOUPLE,Alice & Bob]
-LoseText = Our teamwork failed!
-Pokemon = TURTWIG,19
-Pokemon = CHIMCHAR,19
-#-------------------------------
+#                                               PARTNER TRAINER
+#----------------------------
 [POKEMONTRAINER_May,May]
 LoseText = ...
-Pokemon = COMBUSKEN,19
-#-------------------------------
-[SWIMMER2_F,Ariel]
-LoseText = Washed out!
-Pokemon = STARYU,15
-Pokemon = GOLDEEN,11
-#-------------------------------
-[RIVAL1,Blue]
-LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = BULBASAUR,18
-#-------------------------------
-[RIVAL1,Blue,1]
-LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = CHARMANDER,18
-#-------------------------------
-[RIVAL1,Blue,2]
-LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = SQUIRTLE,18
-#-------------------------------
-[CHAMPION,Blue]
-LoseText = A good battle indeed!
-Pokemon = VENUSAUR,63
-    Item = SITRUSBERRY
-Pokemon = CHARIZARD,63
-    Item = SITRUSBERRY
-Pokemon = BLASTOISE,63
-    Item = SITRUSBERRY
-#-------------------------------
-# PARTNER TRAINER
+Pokemon = SHROODLE,17
+    IV = 20,20,20,20,20,20
+    Item = BERRYJUICE
+    Moves = ACIDSPRAY,BITE,FURYSWIPES,HELPINGHAND
 #----------------------------
-[BESTFRIEND,Karen,1]
+[POKEMONTRAINER_May,May,1]
 LoseText = ...
 Pokemon = SMOLIV,17
-    Name = Olive
-	Gender = female
     IV = 20,20,20,20,20,20
     Item = BERRYJUICE
     Moves = RAZORLEAF,TACKLE,GRASSYTERRAIN,HELPINGHAND
 #-------------------------------
-# NORMAL TRAINERS
+#                                               NORMAL TRAINERS
+#-------------------------------
+#Forest
 #-------------------------------
 [TWINS,Lea&Lisa]
 LoseText = That's not fair!
@@ -183,7 +73,6 @@ Pokemon = BUNEARY,18
     AbilityIndex = 1
     Item = STICKYBARB
     Moves = BRUTALSWING,SWITCHEROO
-#------------------------------
 [CAMPER,Joe]
 LoseText = Me too, sis' !
 Pokemon = WOOPER,18
@@ -196,7 +85,7 @@ Pokemon = BONSLY,18
     AbilityIndex = 2
     Moves = BULLDOZE,COPYCAT
     Nature = TIMID
-#------------------------------
+#-------------------------------
 #Tournament (first pokemon = ace)
 #-------------------------------
 [AROMALADY,Alma]
@@ -312,7 +201,7 @@ Pokemon = MUNCHLAX,20
     Nature = QUIET
     Item = MAGOBERRY #intentional bad berry to get confusion and nerf it
 Pokemon = MASCHIFF,20
-    Moves = SCARYFACE,BITE,FIREFANG,ICEFANG
+    Moves = SCARYFACE,BITE,DIG,TAUNT
     Nature = BOLD
     Item = MUSCLEBAND
 #-------------------------------
@@ -345,8 +234,6 @@ Pokemon = SNEASEL,19
 LoseText = They say only few people can understand the bond between Trainers and their Pokémon. You truly are one of them.
 Pokemon = SHROODLE,22
     AbilityIndex = 2
-	Name = Nabs
-	Gender = male
     Moves = SLASH,POISONFANG,VENOSHOCK,PARTINGSHOT
     IV = 31,10,31,15,0,31
     Item = EVIOLITE
@@ -356,12 +243,14 @@ Pokemon = BRAMBLEGHAST,22
     Nature = TIMID
     Item = SITRUSBERRY
 Pokemon = DIPPLIN,21
-    Moves = DRAGONTAIL,RECYCLE,BULLETSEED,ENDURE
+    Moves = DRAGONTAIL,RECYCLE,MEGADRAIN,ENDURE
+    Nature = BOLD
+    IV = 15,0,15,0,5,15
     Item = FIGYBERRY
 Pokemon = STARAVIA,21
     Moves = QUICKATTACK,WINGATTACK,WHIRLWIND,ROOST
     Item = LUMBERRY
-Pokemon = SMEARGLE,18
+Pokemon = SMEARGLE,21
     Moves = TOXICSPIKES,ROAR,RETURN,DRAININGKISS
     Happiness = 180
     Item = THROATSPRAY
@@ -373,8 +262,6 @@ Pokemon = BELLIBOLT,21
 LoseText = You and your Pokémon share a bond more than exceptional. I kind of envy them.
 Pokemon = SMOLIV,22
     AbilityIndex = 2
-	Name = Olive
-	Gender = female
     Moves = RETURN,MEGADRAIN,WEATHERBALL,SUNNYDAY
     Happiness = 170
     IV = 31,31,31,15,31,31
@@ -400,7 +287,5 @@ Pokemon = CLAUNCHER,21
     Nature = ADAMANT
     Item = DRAGONFANG
 Pokemon = POLTEAGEIST,21
-    IV = 15,5,15,15,0,15
     Item = LIECHIBERRY
-    Nature = ADAMANT
-    Moves = TEATIME,MEGADRAIN,SUCKERPUNCH,POLTERGEIST
+    Moves = TEATIME,STOREDPOWER,SUCKERPUNCH,POLTERGEIST
