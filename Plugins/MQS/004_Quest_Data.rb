@@ -19,4 +19,15 @@ module QuestModule
     :QuestDescription => "Gather 4 berries, 3 mushrooms, 2 honey and 3 firewoods.",
     :RewardString => "???"
   }
+  Quest2 = {
+    :ID => "2",
+    :Name => "A Little List",
+    :QuestGiver => "Elder",
+    :Stage1 => "Ask villagers about festival plans",
+    :Stage2 => "Report back to Elder",
+    :Location1 => "Gracewood Village",
+    :Location2 => "Elder's House",
+    :QuestDescription => "The Elder's daughter has been very busy these last few days, so she wasn't able to ask around what everyone was planning on doing tomorrow. Ask around town and make a little list of what everyone plans on contributing.",
+    :RewardString => "???"
+  }
 end

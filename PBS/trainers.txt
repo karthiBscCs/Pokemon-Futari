@@ -1,6 +1,5 @@
-﻿
-#-------------------------------
-#                                               PARTNER TRAINER
+﻿#-------------------------------
+# PARTNER TRAINER
 #----------------------------
 [POKEMONTRAINER_May,May]
 LoseText = ...
@@ -9,14 +8,16 @@ Pokemon = SHROODLE,17
     Item = BERRYJUICE
     Moves = ACIDSPRAY,BITE,FURYSWIPES,HELPINGHAND
 #----------------------------
-[POKEMONTRAINER_May,May,1]
+[BESTFRIEND,Karen,1]
 LoseText = ...
 Pokemon = SMOLIV,17
+    Name = Olive
+	Gender = Female
     IV = 20,20,20,20,20,20
     Item = BERRYJUICE
     Moves = RAZORLEAF,TACKLE,GRASSYTERRAIN,HELPINGHAND
 #-------------------------------
-#                                               NORMAL TRAINERS
+# NORMAL TRAINERS
 #-------------------------------
 #Forest
 #-------------------------------
@@ -258,10 +259,12 @@ Pokemon = BELLIBOLT,21
     Moves = SLACKOFF,SPARK,WATERGUN,SWIFT
     Item = WISEGLASSES
 #-------------------------------
-[POKEMONTRAINER_May,May,4]  #Karen
+[BESTFRIEND,Karen,2]
 LoseText = You and your Pokémon share a bond more than exceptional. I kind of envy them.
 Pokemon = SMOLIV,22
     AbilityIndex = 2
+	Name = Olive
+	Gender = Female
     Moves = RETURN,MEGADRAIN,WEATHERBALL,SUNNYDAY
     Happiness = 170
     IV = 31,31,31,15,31,31
