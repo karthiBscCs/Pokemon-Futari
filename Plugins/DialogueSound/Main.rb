@@ -10,6 +10,7 @@
 #
 #===============================================================================
 module DialogueSound
+  @manual_sound_command = false      # addon to manualy choose the sound
   @sound_effect_name = "boopSINE"    # This is the default SE for the text.
   @sound_enabled = true              # If it's enabled by default.
   @sound_interval = 2                # This is the number of letters to be 
@@ -47,7 +48,7 @@ module DialogueSound
 
     if current_position > @previous_position
       if @letter_count % @sound_interval == 0
-        pbSEPlay(@sound_effect_name)
+        pbSEPlay("/Dialogue/"+ @sound_effect_name,80,100)
       end
       @letter_count += 1
       @previous_position = current_position
@@ -66,6 +67,43 @@ module DialogueSound
   def self.disable_sound
     @sound_enabled = false
   end
+
+  #Futari modif
+  def self.sound_command
+    return @manual_sound_command
+  end
+
+  def self.modify_sound(sound_name) #to call in an event
+    @manual_sound_command = sound_name
+  end
+
+  def self.reset_sound #to call in an event
+    @manual_sound_command = false
+  end
+
+  def self.character_check(message = "",choice) #ajout shard
+    if choice == "mute"
+      return true
+    elsif message.match(/\\xn[Karen]/) || choice == "Karen"
+      DialogueSound.set_sound_effect("Girl")  #we could add a voice to Karen here
+    elsif message.match(/\\xn[Gaeul]/) || choice == "Gaeul"
+      DialogueSound.set_sound_effect("Girl")  #same for Gaeul
+    elsif choice == "Boy"
+      DialogueSound.set_sound_effect("Boy")
+    elsif choice == "Girl"
+      DialogueSound.set_sound_effect("Girl")
+    else #2nd level of condition to not conflict with primary voices
+      if message.match(/\\b/) #default boy
+        DialogueSound.set_sound_effect("Boy")
+      elsif message.match(/\\r/) #default girl
+        DialogueSound.set_sound_effect("Girl")
+      else
+        DialogueSound.set_sound_effect("boopSINE") #replace by 'return true' if you want nothing
+      end
+    end
+    return false
+  end
+
 end
 
 #===============================================================================
@@ -75,6 +113,12 @@ alias original_pbMessageDisplay pbMessageDisplay
 def pbMessageDisplay(msgwindow, message, letterbyletter = true, commandProc = nil)
   # Reset letter count for each new message so that the sound is played at the correct time, may not be necessary.
   DialogueSound.reset
+
+ #Futari modif
+  choice = DialogueSound.sound_command
+  no_charac = DialogueSound.character_check(message,choice)
+  DialogueSound.disable_sound if no_charac == true
+  DialogueSound.enable_sound if no_charac == false
 
   # Call the original pbMessageDisplay but modify its behavior
   original_pbMessageDisplay(msgwindow, message, letterbyletter, commandProc) do
