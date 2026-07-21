@@ -1,0 +1,3 @@
+Name         = Futari Script Utilities
+Essentials   = 21.1
+Credits      = Neiro

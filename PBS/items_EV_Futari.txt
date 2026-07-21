@@ -1,0 +1,455 @@
+#-------------------------------
+[HPUP]
+Name = HP Up
+NamePlural = HP Ups
+PortionName = bottle of HP Up
+PortionNamePlural = bottles of HP Up
+Pocket = 2
+Price = 160
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base HP of a single Pokémon.
+#-------------------------------
+[PROTEIN]
+Name = Protein
+NamePlural = Proteins
+PortionName = bottle of Protein
+PortionNamePlural = bottles of Protein
+Pocket = 2
+Price = 160
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.
+#-------------------------------
+[IRON]
+Name = Iron
+NamePlural = Irons
+PortionName = bottle of Iron
+PortionNamePlural = bottles of Iron
+Pocket = 2
+Price = 160
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon.
+#-------------------------------
+[CALCIUM]
+Name = Calcium
+NamePlural = Calciums
+PortionName = bottle of Calcium
+PortionNamePlural = bottles of Calcium
+Pocket = 2
+Price = 160
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.
+#-------------------------------
+[ZINC]
+Name = Zinc
+NamePlural = Zincs
+PortionName = bottle of Zinc
+PortionNamePlural = bottles of Zinc
+Pocket = 2
+Price = 160
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Sp. Def (Special Defense) stat of a single Pokémon.
+#-------------------------------
+[CARBOS]
+Name = Carbos
+NamePlural = Carbos
+PortionName = bottle of Carbos
+PortionNamePlural = bottles of Carbos
+Pocket = 2
+Price = 160
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon.
+#-------------------------------
+[HEALTHFEATHER]
+Name = Health Feather
+NamePlural = Health Feathers
+Pocket = 2
+Price = 20
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base HP of a single Pokémon.
+#-------------------------------
+[MUSCLEFEATHER]
+Name = Muscle Feather
+NamePlural = Muscle Feathers
+Pocket = 2
+Price = 20
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Attack stat of a single Pokémon.
+#-------------------------------
+[RESISTFEATHER]
+Name = Resist Feather
+NamePlural = Resist Feathers
+Pocket = 2
+Price = 20
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Defense stat of a single Pokémon.
+#-------------------------------
+[GENIUSFEATHER]
+Name = Genius Feather
+NamePlural = Genius Feathers
+Pocket = 2
+Price = 20
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Sp. Atk stat of a single Pokémon.
+#-------------------------------
+[CLEVERFEATHER]
+Name = Clever Feather
+NamePlural = Clever Feathers
+Pocket = 2
+Price = 20
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Sp. Def stat of a single Pokémon.
+#-------------------------------
+[SWIFTFEATHER]
+Name = Swift Feather
+NamePlural = Swift Feathers
+Pocket = 2
+Price = 20
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Speed stat of a single Pokémon.
+#-------------------------------
+[LONELYMINT]
+Name = Lonely Mint
+NamePlural = Lonely Mints
+PortionName = sprig of Lonely Mint
+PortionNamePlural = sprigs of Lonely Mint
+Pocket = 2
+Price = 1000
+BPPrice = 10
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Attack will grow more easily, but its Defense will grow more slowly.
+#-------------------------------
+[ADAMANTMINT]
+Name = Adamant Mint
+NamePlural = Adamant Mints
+PortionName = sprig of Adamant Mint
+PortionNamePlural = sprigs of Adamant Mint
+Pocket = 2
+Price = 2500
+BPPrice = 20
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Atk will grow more slowly.
+#-------------------------------
+[NAUGHTYMINT]
+Name = Naughty Mint
+NamePlural = Naughty Mints
+PortionName = sprig of Naughty Mint
+PortionNamePlural = sprigs of Naughty Mint
+Pocket = 1000
+Price = 10
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Def will grow more slowly.
+#-------------------------------
+[BRAVEMINT]
+Name = Brave Mint
+NamePlural = Brave Mints
+PortionName = sprig of Brave Mint
+PortionNamePlural = sprigs of Brave Mint
+Pocket = 2
+Price = 600
+BPPrice = 6
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Attack will grow more easily, but its Speed will grow more slowly.
+#-------------------------------
+[BOLDMINT]
+Name = Bold Mint
+NamePlural = Bold Mints
+PortionName = sprig of Bold Mint
+PortionNamePlural = sprigs of Bold Mint
+Pocket = 2
+Price = 1800
+BPPrice = 16
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Defense will grow more easily, but its Attack will grow more slowly.
+#-------------------------------
+[IMPISHMINT]
+Name = Impish Mint
+NamePlural = Impish Mints
+PortionName = sprig of Impish Mint
+PortionNamePlural = sprigs of Impish Mint
+Pocket = 2
+Price = 1800
+BPPrice = 16
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Atk will grow more slowly.
+#-------------------------------
+[LAXMINT]
+Name = Lax Mint
+NamePlural = Lax Mints
+PortionName = sprig of Lax Mint
+PortionNamePlural = sprigs of Lax Mint
+Pocket = 2
+Price = 100
+BPPrice = 1
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Def will grow more slowly.
+#-------------------------------
+[RELAXEDMINT]
+Name = Relaxed Mint
+NamePlural = Relaxed Mints
+PortionName = sprig of Relaxed Mint
+PortionNamePlural = sprigs of Relaxed Mint
+Pocket = 2
+Price = 400
+BPPrice = 2
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Defense will grow more easily, but its Speed will grow more slowly.
+#-------------------------------
+[MODESTMINT]
+Name = Modest Mint
+NamePlural = Modest Mints
+PortionName = sprig of Modest Mint
+PortionNamePlural = sprigs of Modest Mint
+Pocket = 2
+Price = 2500
+BPPrice = 20
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Attack will grow more slowly.
+#-------------------------------
+[MILDMINT]
+Name = Mild Mint
+NamePlural = Mild Mints
+PortionName = sprig of Mild Mint
+PortionNamePlural = sprigs of Mild Mint
+Pocket = 2
+Price = 1000
+BPPrice = 10
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Defense will grow more slowly.
+#-------------------------------
+[RASHMINT]
+Name = Rash Mint
+NamePlural = Rash Mints
+PortionName = sprig of Rash Mint
+PortionNamePlural = sprigs of Rash Mint
+Pocket = 2
+Price = 1000
+BPPrice = 10
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Sp. Def will grow more slowly.
+#-------------------------------
+[QUIETMINT]
+Name = Quiet Mint
+NamePlural = Quiet Mints
+PortionName = sprig of Quiet Mint
+PortionNamePlural = sprigs of Quiet Mint
+Pocket = 2
+Price = 600
+BPPrice = 6
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Speed will grow more slowly.
+#-------------------------------
+[CALMMINT]
+Name = Calm Mint
+NamePlural = Calm Mints
+PortionName = sprig of Calm Mint
+PortionNamePlural = sprigs of Calm Mint
+Pocket = 2
+Price = 1800
+BPPrice = 16
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Attack will grow more slowly.
+#-------------------------------
+[GENTLEMINT]
+Name = Gentle Mint
+NamePlural = Gentle Mints
+PortionName = sprig of Gentle Mint
+PortionNamePlural = sprigs of Gentle Mint
+Pocket = 2
+Price = 100
+BPPrice = 1
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Defense will grow more slowly.
+#-------------------------------
+[CAREFULMINT]
+Name = Careful Mint
+NamePlural = Careful Mints
+PortionName = sprig of Careful Mint
+PortionNamePlural = sprigs of Careful Mint
+Pocket = 2
+Price = 1800
+BPPrice = 16
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Sp. Atk will grow more slowly.
+#-------------------------------
+[SASSYMINT]
+Name = Sassy Mint
+NamePlural = Sassy Mints
+PortionName = sprig of Sassy Mint
+PortionNamePlural = sprigs of Sassy Mint
+Pocket = 2
+Price = 400
+BPPrice = 2
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Speed will grow more slowly.
+#-------------------------------
+[TIMIDMINT]
+Name = Timid Mint
+NamePlural = Timid Mints
+PortionName = sprig of Timid Mint
+PortionNamePlural = sprigs of Timid Mint
+Pocket = 2
+Price = 2100
+BPPrice = 18
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Speed will grow more easily, but its Attack will grow more slowly.
+#-------------------------------
+[HASTYMINT]
+Name = Hasty Mint
+NamePlural = Hasty Mints
+PortionName = sprig of Hasty Mint
+PortionNamePlural = sprigs of Hasty Mint
+Pocket = 2
+Price = 1400
+BPPrice = 14
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Speed will grow more easily, but its Defense will grow more slowly.
+#-------------------------------
+[JOLLYMINT]
+Name = Jolly Mint
+NamePlural = Jolly Mints
+PortionName = sprig of Jolly Mint
+PortionNamePlural = sprigs of Jolly Mint
+Pocket = 2
+Price = 2100
+BPPrice = 18
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Atk will grow more slowly.
+#-------------------------------
+[NAIVEMINT]
+Name = Naive Mint
+NamePlural = Naive Mints
+PortionName = sprig of Naive Mint
+PortionNamePlural = sprigs of Naive Mint
+Pocket = 2
+Price = 1400
+BPPrice = 14
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Def will grow more slowly.
+#-------------------------------
+[SERIOUSMINT]
+Name = Serious Mint
+NamePlural = Serious Mints
+PortionName = sprig of Serious Mint
+PortionNamePlural = sprigs of Serious Mint
+Pocket = 2
+Price = 800
+BPPrice = 8
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, all of its stats will grow at an equal rate.
+#-------------------------------
+[ABILITYCAPSULE]
+Name = Ability Capsule
+NamePlural = Ability Capsule
+Pocket = 1
+Price = 300
+FieldUse = OnPokemon
+Description = A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.
+#-------------------------------
+[ABILITYPATCH]
+Name = Ability Patch
+NamePlural = Ability Patches
+Pocket = 1
+Price =3000
+FieldUse = OnPokemon
+Description = A patch that allows a Pokémon with a regular Ability to have a rare Ability.
+#-------------------------------
+[HPSOUP]
+Name = HP Soup
+NamePlural = HP Soups
+PortionName = bowl of HP Soup
+PortionNamePlural = bowls of HP Soup
+Pocket = 2
+Price = 4000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious soup for Pokémon. It raises the base HP stat of a single Pokémon at full potential.
+#-------------------------------
+[PROTEINSOUP]
+Name = Protein Soup
+NamePlural = Protein Soups
+PortionName = bowl of Protein Soup
+PortionNamePlural = bowls of Protein Soup
+Pocket = 2
+Price = 4000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious soup for Pokémon. It raises the base Attack stat of a single Pokémon at full potential.
+#-------------------------------
+[IRONSOUP]
+Name = Iron Soup
+NamePlural = Iron Soups
+PortionName = bowl of Iron Soup
+PortionNamePlural = bowls of Iron Soup
+Pocket = 2
+Price = 4000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious soup for Pokémon. It raises the base Defense stat of a single Pokémon at full potential.
+#-------------------------------
+[CALCIUMSOUP]
+Name = Calcium Soup
+NamePlural = Calcium Soups
+PortionName = bowl of Calcium Soup
+PortionNamePlural = bowls of Calcium Soup
+Pocket = 2
+Price = 4000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious soup for Pokémon. It raises the base Special Attack stat of a single Pokémon at full potential.
+#-----------------------------
+[ZINCSOUP]
+Name = Zinc Soup
+NamePlural = Zinc Soups
+PortionName = bowl of Zinc Soup
+PortionNamePlural = bowls of Zinc Soup
+Pocket = 2
+Price = 4000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious soup for Pokémon. It raises the base Special Defense stat of a single Pokémon at full potential.
+#-------------------------------
+[CARBOSSOUP]
+Name = Carbos Soup
+NamePlural = Carbos Soups
+PortionName = bowl of Carbos Soup
+PortionNamePlural = bowls of Carbos Soup
+Pocket = 2
+Price = 4000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious soup for Pokémon. It raises the base Speed stat of a single Pokémon at full potential.
+#-------------------------------
