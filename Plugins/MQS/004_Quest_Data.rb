@@ -12,7 +12,7 @@ module QuestModule
     :QuestGiver => "Karen",
     :Stage1 => "Gather ingredients",
 	:Stage2 => "Cook & Share a Meal",
-	:Stage3 => "Deliver Food to Elders house",
+	:Stage3 => "Deliver Food to Elder's house",
     :Location1 => "Gracewood Forest",
 	:Location2 => "Home",
 	:Location3 => "Freesia Town",
@@ -23,11 +23,22 @@ module QuestModule
     :ID => "2",
     :Name => "A Little List",
     :QuestGiver => "Elder",
-    :Stage1 => "Ask villagers about festival plans",
-    :Stage2 => "Report back to Elder",
+    :Stage1 => "Ask the villagers about their festival plans.",
+	:Stage2 => "Report back to Elder",
     :Location1 => "Gracewood Village",
-    :Location2 => "Elder's House",
-    :QuestDescription => "The Elder's daughter has been very busy these last few days, so she wasn't able to ask around what everyone was planning on doing tomorrow. Ask around town and make a little list of what everyone plans on contributing.",
+	:Location2 => "Elder's House",
+    :QuestDescription => "The Elder's daughter has been too busy to ask around town about tomorrow's plans. Ask the villagers what they intend to contribute and make a small list.",
+    :RewardString => "???"
+  }
+  Quest3 = {
+    :ID => "3",
+    :Name => "Go to sleep",
+    :QuestGiver => "Karen",
+    :Stage1 => "Go home and take some rest",
+	:Stage2 => "Festival day",
+    :Location1 => "Home",
+	:Location2 => "Gracewood Village",
+    :QuestDescription => "It's almost night, and tomorrow is the festival. Head home and get some sleep.",
     :RewardString => "???"
   }
 end

@@ -1,0 +1,49 @@
+#===============================================================================
+#  Luka's Scripting Utilities
+#
+#  Core extensions for the `Dir` class
+#===============================================================================
+# Core extensions for the `Dir` class adding recursive directory utilities.
+class ::Dir
+  class << self
+    # Creates all the required directories for filename path
+    # @param path [String] directory path to create
+    # @return [void]
+    def create(path)
+      full = ''
+
+      path.gsub('\\', '/').split('/').each do |dir|
+        full << dir + '/'
+
+        # creates directories
+        mkdir(full) unless safe?(full)
+      end
+    end
+
+    # Generates entire file/folder tree from a certain directory
+    # @param path [String] directory path to scan
+    # @return [Array<String>] all directories found in the tree
+    def all_dirs(path)
+      # sets variables for starting
+      dirs = [].tap do |dir_array|
+        get(path, '*', true).each do |file|
+          # engages in recursion to read the entire folder tree
+          dir_array << all_dirs(file) if safe?(file)
+        end
+      end
+      # returns all found directories
+      dirs.empty? ? [path] : (dirs + [path])
+    end
+
+    # Deletes all the files in a directory and all the sub directories (allows for non-empty dirs)
+    # @param path [String] directory path to delete
+    # @return [void]
+    def delete_all(path)
+      # delete all files in dir
+      all(path).each { |f| File.delete(f) }
+
+      # delete all dirs in dir
+      all_dirs(path).each { |f| Dir.delete(f) }
+    end
+  end
+end
