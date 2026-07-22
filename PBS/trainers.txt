@@ -4,11 +4,13 @@
 [POKEMONTRAINER_May,May]
 LoseText = ...
 Pokemon = SHROODLE,17
+    Name = Nabs
+    Gender = Male
     IV = 20,20,20,20,20,20
     Item = BERRYJUICE
     Moves = ACIDSPRAY,BITE,FURYSWIPES,HELPINGHAND
 #----------------------------
-[BESTFRIEND,Karen,1]
+[BESTFRIEND,Karen]
 LoseText = ...
 Pokemon = SMOLIV,17
     Name = Olive
@@ -231,9 +233,11 @@ Pokemon = SNEASEL,19
     IV = 15,0,15,15,0,15
     Item = NORMALGEM
 #-------------------------------
-[POKEMONTRAINER_May,May,3] #Gaeul
+[POKEMONTRAINER_May,May,1] #Gaeul
 LoseText = They say only few people can understand the bond between Trainers and their Pokémon. You truly are one of them.
 Pokemon = SHROODLE,22
+    Name = Nabs
+    Gender = Male
     AbilityIndex = 2
     Moves = SLASH,POISONFANG,VENOSHOCK,PARTINGSHOT
     IV = 31,10,31,15,0,31
@@ -259,7 +263,7 @@ Pokemon = BELLIBOLT,21
     Moves = SLACKOFF,SPARK,WATERGUN,SWIFT
     Item = WISEGLASSES
 #-------------------------------
-[BESTFRIEND,Karen,2]
+[BESTFRIEND,Karen,1]
 LoseText = You and your Pokémon share a bond more than exceptional. I kind of envy them.
 Pokemon = SMOLIV,22
     AbilityIndex = 2

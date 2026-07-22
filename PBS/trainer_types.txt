@@ -404,4 +404,5 @@ VictoryBGM = Battle victory leader
 Name = Best Friend
 Gender = Female
 BaseMoney = 60
+SkillLevel = 100
 #-------------------------------

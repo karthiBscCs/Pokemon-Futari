@@ -114,8 +114,8 @@ class TournamentSelection
     @sprites["top_bar"].z = 1
     draw_party("player")
     draw_party("opponent")
-    draw_animation("bg","Graphics/UI/Tournament Selection/bg",0)
-    draw_animation("particles","Graphics/UI/Tournament Selection/particles",6)
+    draw_animation("bg", "Graphics/UI/Tournament Selection/bg", 0)
+    draw_animation("particles", "Graphics/UI/Tournament Selection/particles", 6)
     draw_balls
     textpos4 = [["Please choose #{@poke_max} POKÉMON.", Graphics.width / 2, 11, :center, Color.new(252, 252, 252),nil]]
     textsprites4 = @sprites["textsprites4"].bitmap
@@ -264,10 +264,12 @@ class TournamentSelection
       @sprites["trainer_#{side}"].z = 3
     elsif side == "opponent"
       @sprites["trainer_#{side}"].setBitmap(GameData::TrainerType.front_sprite_filename(@trainer_0[0]))
-      @sprites["trainer_#{side}"].src_rect.set(0,0,@sprites["trainer_#{side}"].bitmap.width,(@sprites["trainer_#{side}"].bitmap.height) / 2)
-      @sprites["trainer_#{side}"].x = Graphics.width - 95
-      @sprites["trainer_#{side}"].y = -8
-      @sprites["trainer_#{side}"].z = 3
+      unless @sprites["trainer_#{side}"].bitmap == nil
+        @sprites["trainer_#{side}"].src_rect.set(0,0,@sprites["trainer_#{side}"].bitmap.width,(@sprites["trainer_#{side}"].bitmap.height) / 2)
+        @sprites["trainer_#{side}"].x = Graphics.width - 95
+        @sprites["trainer_#{side}"].y = -8
+        @sprites["trainer_#{side}"].z = 3
+      end
     end
   end
 
@@ -351,6 +353,7 @@ class TournamentSelection
   end
 
   def create_clone(sprite,once = false, player = nil)
+    return unless sprite
     @sprites["clone#{player}"] = Sprite.new(@viewport)
     @sprites["clone#{player}"].bitmap = sprite.bitmap
     @sprites["clone#{player}"].x = sprite.x
