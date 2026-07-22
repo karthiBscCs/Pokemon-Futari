@@ -148,9 +148,9 @@ Name = Naughty Mint
 NamePlural = Naughty Mints
 PortionName = sprig of Naughty Mint
 PortionNamePlural = sprigs of Naughty Mint
-Pocket = 1000
-Price = 10
-BPPrice = 50
+Pocket = 2
+Price = 1000
+BPPrice = 10
 FieldUse = OnPokemon
 Flags = Fling_10
 Description = When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Def will grow more slowly.
@@ -452,4 +452,15 @@ Price = 4000
 FieldUse = OnPokemon
 Flags = Fling_30
 Description = A nutritious soup for Pokémon. It raises the base Speed stat of a single Pokémon at full potential.
+#-------------------------------
+[BLANDSOUP]
+Name = Bland Soup
+NamePlural = Bland Soups
+PortionName = bowl of Bland Soup
+PortionNamePlural = bowls of Bland Soup
+Pocket = 2
+Price = 100
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A soup with a very mild flavor for Pokémon. Custom says that a single Pokemon drinks it for a fresh start.
 #-------------------------------
