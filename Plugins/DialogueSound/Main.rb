@@ -48,7 +48,7 @@ module DialogueSound
 
     if current_position > @previous_position
       if @letter_count % @sound_interval == 0
-        pbSEPlay("/Dialogue/"+ @sound_effect_name,80,100)
+        pbSEPlay("/Dialogues/"+ @sound_effect_name,80,100)
       end
       @letter_count += 1
       @previous_position = current_position
@@ -84,9 +84,9 @@ module DialogueSound
   def self.character_check(message = "",choice) #ajout shard
     if choice == "mute"
       return true
-    elsif message.match(/\\xn[Karen]/) || choice == "Karen"
+    elsif message.match(/\\xn\[Karen/) || choice == "Karen"
       DialogueSound.set_sound_effect("Girl")  #we could add a voice to Karen here
-    elsif message.match(/\\xn[Gaeul]/) || choice == "Gaeul"
+    elsif message.match(/\\xn\[Gaeul]/) || choice == "Gaeul"
       DialogueSound.set_sound_effect("Girl")  #same for Gaeul
     elsif choice == "Boy"
       DialogueSound.set_sound_effect("Boy")
