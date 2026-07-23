@@ -49,8 +49,17 @@ module DialogueModule
       battle.battlers[1].pbRaiseStatStage(:ATTACK,6,battle.battlers[1])
       battle.battlers[1].pbRaiseStatStage(:SPEED,6,battle.battlers[1])
       }
-
-##############Test########################################"
+ 
+ ##############Futari#####
+ AlmaTurn0 = {"text"=>"\\xn[Alma]\\rHello","bar"=>true}
+ TylerTurn0 = {"text"=>"Hello","bar"=>true}
+ TestTurn0 = Proc.new{|battle|
+      battle.scene.appearBar
+	  pbMessage("\\xn[Alma]\\rNo i lost.")
+	  battle.scene.disappearBar
+    }
+ 
+##############AROMALADYTest########################################"
 	Tform=Proc.new{|battle|
 		battle.scene.appearBar
 		battle.pbCommonAnimation("MegaEvolution",battle.battlers[1],nil)

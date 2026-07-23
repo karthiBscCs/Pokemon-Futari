@@ -208,7 +208,7 @@ Pokemon = MASCHIFF,20
     Nature = BOLD
     Item = MUSCLEBAND
 #-------------------------------
-[POKEMONRANGER_F,June]
+[POKEMONRANGER_M,Jack]
 LoseText = You could be a good Pokemon Ranger you know ? Don't mind to join us !
 Pokemon = YAMPER,20
     Moves = ELECTROBALL,FLAMECHARGE,NUZZLE,TAILWHIP
