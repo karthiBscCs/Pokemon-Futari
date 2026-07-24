@@ -92,7 +92,7 @@ Pokemon = BONSLY,18
 #Tournament (first pokemon = ace)
 #-------------------------------
 [AROMALADY,Alma]
-LoseText = That was fun~
+LoseText = That was so nasty, I love it!
 Pokemon = SUNFLORA,18
     Moves = RAZORLEAF,MEGADRAIN,INGRAIN,LEECHSEED
     IV = 0,15,0,15,15,0
@@ -114,7 +114,7 @@ Pokemon = VOLTORB,18
     Item = LOADEDDICE
 #-------------------------------
 [HIKER,Tyler]
-LoseText = I should brought more Rock types...
+LoseText = ...you exploited my weaknesses...
 Pokemon = LARVITAR,18
     Moves = ROCKTOMB,BULLDOZE,RETURN,SCARYFACE
     Happiness = 163

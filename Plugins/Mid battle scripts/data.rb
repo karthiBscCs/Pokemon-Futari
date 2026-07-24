@@ -51,9 +51,9 @@ module DialogueModule
       }
  
  ##############Futari#####
- AlmaTurn0 = {"text"=>"\\xn[Alma]\\rHello","bar"=>true}
- TylerTurn0 = {"text"=>"\\xn[Tyler]\\bHello","bar"=>true}
- KarenTurn0 = {"text"=>"\\xn[Karen]Hello","bar"=>true}
+ AlmaTurn0 = {"text"=>"\\xn[Alma]\\rHmm, I wonder... Should I hold back, or can I cut loose just a little?","bar"=>true}
+ TylerTurn0 = {"text"=>"\\xn[Tyler]\\b...please don't exploit my weaknesses. I worked hard for them...","bar"=>true}
+ KarenTurn0 = {"text"=>"\\xn[Karen]Don't think I'll hold back just because you're my best friend!","bar"=>true}
 ##############AROMALADYTest########################################"
 	Tform=Proc.new{|battle|
 		battle.scene.appearBar
