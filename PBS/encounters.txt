@@ -15,3 +15,11 @@ Land,10
     15,COMBEE,16
     10,BUDEW,16
 #-------------------------------
+[014] # Gravewood Forest
+Land,10
+    20,TEDDIURSA,22
+    20,ARIADOS,22
+    20,TOEDSCOOL,22
+    20,MISDREAVUS,22
+    20,POLTCHAGEIST,22
+#-------------------------------

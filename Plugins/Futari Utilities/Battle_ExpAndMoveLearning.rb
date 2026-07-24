@@ -175,7 +175,7 @@ class Battle
         exp = exp.floor
         #-----------------------------------
     else #pokes sauvages
-      exp *= 0.5
+      exp *= 0.2
       exp = exp.floor
     end
     # Scale the gained Exp based on the gainer's level (or not)
