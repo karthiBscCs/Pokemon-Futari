@@ -52,13 +52,8 @@ module DialogueModule
  
  ##############Futari#####
  AlmaTurn0 = {"text"=>"\\xn[Alma]\\rHello","bar"=>true}
- TylerTurn0 = {"text"=>"Hello","bar"=>true}
- TestTurn0 = Proc.new{|battle|
-      battle.scene.appearBar
-	  pbMessage("\\xn[Alma]\\rNo i lost.")
-	  battle.scene.disappearBar
-    }
- 
+ TylerTurn0 = {"text"=>"\\xn[Tyler]\\bHello","bar"=>true}
+ KarenTurn0 = {"text"=>"\\xn[Karen]Hello","bar"=>true}
 ##############AROMALADYTest########################################"
 	Tform=Proc.new{|battle|
 		battle.scene.appearBar

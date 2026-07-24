@@ -25,7 +25,7 @@ module QuestModule
     :QuestGiver => "Elder",
     :Stage1 => "Ask the villagers about their festival plans.",
 	:Stage2 => "Report back to Elder",
-    :Location1 => "Gracewood Village",
+    :Location1 => "Freesia Town",
 	:Location2 => "Elder's House",
     :QuestDescription => "The Elder's daughter has been too busy to ask around town about tomorrow's plans. Ask the villagers what they intend to contribute and make a small list.",
     :RewardString => "???"
@@ -37,8 +37,19 @@ module QuestModule
     :Stage1 => "Go home and take some rest",
 	:Stage2 => "Festival day",
     :Location1 => "Home",
-	:Location2 => "Gracewood Village",
+	:Location2 => "Freesia Town",
     :QuestDescription => "It's almost night, and tomorrow is the festival. Head home and get some sleep.",
+    :RewardString => "???"
+  }
+  Quest4 = {
+    :ID => "4",
+    :Name => "Before Tomorrow",
+    :QuestGiver => "Karen",
+    :Stage1 => "Explore the town",
+	:Stage2 => "Go home and take some rest",
+    :Location1 => "Freesia Town",
+	:Location2 => "Home",
+    :QuestDescription => "It's afternoon, and there's a bit of time before evening. Let's explore the town for a while.",
     :RewardString => "???"
   }
 end
