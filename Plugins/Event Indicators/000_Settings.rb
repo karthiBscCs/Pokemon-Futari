@@ -166,7 +166,8 @@ module Settings
     EVENT_INDICATORS = {
         "quest" => {
             :graphic => "Graphics/UI/Event Indicators/quest_available",
-            :movement_speed => 20
+            :movement_speed => 20,
+			:always_visible => true
         },
         "questsimple" => {
             :graphic => "Graphics/UI/Event Indicators/quest_available_simple"

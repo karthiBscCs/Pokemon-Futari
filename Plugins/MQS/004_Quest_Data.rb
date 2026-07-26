@@ -52,4 +52,13 @@ module QuestModule
     :QuestDescription => "It's afternoon, and there's a bit of time before evening. Let's explore the town for a while.",
     :RewardString => "???"
   }
+  Quest5 = {
+    :ID => "5",
+    :Name => "Grandpa's Buried Secret",
+    :QuestGiver => "Marcus",
+    :Stage1 => "Help repair the floor",
+    :Location1 => "Marcus's House",
+    :QuestDescription => "Marcus finally dug up the treasure his grandfather hid long ago using a Diglett. But the dig cracked his floor wide open, and now he needs a carpenter's help to fix it.",
+    :RewardString => "???"
+  }
 end
