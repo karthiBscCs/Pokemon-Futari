@@ -54,11 +54,24 @@ module QuestModule
   }
   Quest5 = {
     :ID => "5",
-    :Name => "Grandpa's Buried Secret",
+    :Name => "A Hole in the Floor",
     :QuestGiver => "Marcus",
-    :Stage1 => "Help repair the floor",
+    :Stage1 => "Help repair Marcus's floor",
     :Location1 => "Marcus's House",
-    :QuestDescription => "Marcus finally dug up the treasure his grandfather hid long ago using a Diglett. But the dig cracked his floor wide open, and now he needs a carpenter's help to fix it.",
+    :QuestDescription => "Marcus kept his cousin's Drilbur indoors for a day, and it dug holes all through his floor. Luckily, Gaeul knows carpentry and has offered to help repair the damage.",
+    :RewardString => "???"
+  }
+  Quest6 = {
+    :ID => "6",
+    :Name => "The Missing Boy",
+    :QuestGiver => "Andrea",
+    :Stage1 => "Search the forest for R.J.",
+    :Location1 => "Forest",
+    :Stage2 => "Help repair the bridge",
+    :Location2 => "Broken Bridge",
+    :Stage3 => "Investigate the thud sound",
+    :Location3 => "Forest",
+    :QuestDescription => "R.J. has gone missing, and he may have taken one of Rupert's Pokémon with him. While the villagers search elsewhere, Andrea asks you to check the forest for any sign of him.",
     :RewardString => "???"
   }
 end

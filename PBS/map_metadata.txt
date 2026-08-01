@@ -7,8 +7,8 @@ Name = Intro
 Name = Gracewood Clearing
 Outdoor = true
 ShowArea = true
-SnapEdges = true
 HealingSpot = 6,22,6
+SnapEdges = true
 BattleBack = field
 #-------------------------------
 [003]   # Gracewood Footpath
@@ -29,7 +29,19 @@ BattleBack = forest
 Name = Freesia Town
 Outdoor = true
 ShowArea = true
-SnapEdges = true
 HealingSpot = 10,9,8
+SnapEdges = true
 BattleBack = indoor1
+#-------------------------------
+[014]   # Gravewood Forest
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+BattleBack = forest
+#-------------------------------
+[015]   # Hidden Grove
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+BattleBack = forest
 #-------------------------------
