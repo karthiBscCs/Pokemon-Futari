@@ -23,3 +23,17 @@ Land,10
     20,MISDREAVUS,22
     20,POLTCHAGEIST,22
 #-------------------------------
+[016] # Freesia Junction
+Land,10
+    30,MARILL,25
+    30,ESPURR,25
+    30,PAWMI,25
+    10,FLAMIGO,26
+#-------------------------------
+[017] # Apariah Marsh
+Land,10
+    25,CROAGUNK,26
+    25,RELLOR,26
+    25,INKAY,26
+    15,QWILFISH_1,26
+    10,BELLIBOLT,27
