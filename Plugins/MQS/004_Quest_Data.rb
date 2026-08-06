@@ -74,4 +74,17 @@ module QuestModule
     :QuestDescription => "R.J. has gone missing, and he may have taken one of Rupert's Pokémon with him. While the villagers search elsewhere, Andrea asks you to check the forest for any sign of him.",
     :RewardString => "???"
   }
+  Quest7 = {
+    :ID => "7",
+    :Name => "The Injured Pokémon",
+    :QuestGiver => "Karen",
+    :Stage1 => "Speak with the Elder.",
+    :Location1 => "Freesia Town",
+    :Stage2 => "Search for the herb.",
+    :Location2 => "Apariah Marsh",
+    :Stage3 => "Treat the injured Pokémon.",
+    :Location3 => "Home",
+    :QuestDescription => "After finding an injured Pokémon with a fever, Karen decides not to move it. The Elder may know of a special medicinal herb that could help it recover.",
+    :RewardString => "???"
+  }
 end
