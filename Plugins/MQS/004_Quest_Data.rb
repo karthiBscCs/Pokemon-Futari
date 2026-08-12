@@ -23,7 +23,7 @@ module QuestModule
     :ID => "2",
     :Name => "A Little List",
     :QuestGiver => "Elder",
-    :Stage1 => "Ask the villagers about their festival plans.",
+    :Stage1 => "Ask the villagers plans.",
 	:Stage2 => "Report back to Elder",
     :Location1 => "Freesia Town",
 	:Location2 => "Elder's House",
