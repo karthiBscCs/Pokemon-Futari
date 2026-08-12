@@ -67,7 +67,26 @@ module DialogueModule
 	Tcall=Proc.new{|battle|
 		battle.pbCallForHelp(battle.battlers[1])
 		}
-		
-		
+ ##############Woods#####		
+        T1JinaJo= Proc.new{|battle|
+          $PokemonTemp.nextturnmoves=[nil,nil,[2,3],[0,1],nil,nil,0] #sudo attacks buneary
+        }
+        JinaTurn0 = {"text"=>"\\xn[Jina]\\rJoe ! Get over here, I'll teach you some manners!","bar"=>true}
+        JoAttacks0 = {"text"=>"\\xn[Joe]\\bWe'll see if you're still acting like the smartest after this, Jina ! Sudowoodo, use Ultra-Megalaser of the dead!","bar"=>true}
+        
+        T2JinaJo= Proc.new{|battle|
+          $PokemonTemp.nextturnmoves=[nil,[0,3],[3,1],[0,1],nil,1] #budew attacks sudo or quag, sudo attacks budew
+        }
+        JinaAttacks1=Proc.new{|battle|
+		battle.scene.appearBar
+        battle.scene.pbShowOpponent(0,true)
+		pbMessage("\\xn[Jina]\\rThis is my payback!")
+        battle.scene.pbHideOpponent
+        battle.scene.pbShowOpponent(1,true)
+        pbMessage("\\xn[Joe]\\bWe should stop this Jina...!")
+        battle.scene.pbHideOpponent
+        pbMessage("\\xn[Jina]\\r...")
+		battle.scene.disappearBar
+		}
 # DONT DELETE THIS END
 end

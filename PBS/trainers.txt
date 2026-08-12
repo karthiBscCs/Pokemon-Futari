@@ -9,6 +9,8 @@ Pokemon = SHROODLE,17
     IV = 20,20,20,20,20,20
     Item = BERRYJUICE
     Moves = ACIDSPRAY,BITE,FURYSWIPES,HELPINGHAND
+Pokemon = TADBULB,17
+    Moves = THUNDERSHOCK,WATERGUN,CHARGE,ACIDSPRAY
 #----------------------------
 [BESTFRIEND,Karen]
 LoseText = ...
@@ -18,6 +20,9 @@ Pokemon = SMOLIV,17
     IV = 20,20,20,20,20,20
     Item = BERRYJUICE
     Moves = RAZORLEAF,TACKLE,GRASSYTERRAIN,HELPINGHAND
+Pokemon = MAGBY,17
+    AbilityIndex = 2
+    Moves = EMBER,WILLOWISP,COVET,CLEARSMOG
 #-------------------------------
 # NORMAL TRAINERS
 #-------------------------------
@@ -62,32 +67,33 @@ Pokemon = TAROUNTULA,17
     Nature = MODEST
     Moves = SKITTERSMACK,ELECTROWEB,ACIDSPRAY,MEGADRAIN
 Pokemon = SPINARAK,17
-    Moves = NIGHTSHADE,INFESTATION,PROTECT
-    Item = LEFTOVERS
+    Moves = NIGHTSHADE,REST,SNORE,SLEEPTALK
+    Item = TOXICORB
 #------------------------------
 [PICNICKER,Jina]
 LoseText = I'm sorry, brother !
-Pokemon = BUDEW,18
-    AbilityIndex = 1
-    Moves = SLUDGEWAVE
-    IV = 15,15,15,15,0,15
-    Nature = JOLLY
 Pokemon = BUNEARY,18
     AbilityIndex = 1
-    Item = STICKYBARB
-    Moves = BRUTALSWING,SWITCHEROO
+    IV = 0,15,0,0,15,0
+    Nature = BRAVE
+    Moves = CUT,SWITCHEROO,ENCORE
+Pokemon = BUDEW,18
+    AbilityIndex = 1
+    Moves = MAGICALLEAF,GROWTH,STUNSPORE,MEGADRAIN
 [CAMPER,Joe]
 LoseText = Me too, sis' !
-Pokemon = WOOPER,18
+Pokemon = SUDOWOODO,20
+    AbilityIndex = 0
+    IV = 0,0,0,31,31,0
+    EV = 0,0,0,252,32,0
+    Moves = METEORBEAM
+    Item = POWERHERB
+    Nature = MODEST
+Pokemon = QUAGSIRE,20
+    Moves = RETURN,WATERGUN,MUDSHOT,RAINDANCE
+    IV = 0,0,0,0,0,0
+    Happiness = 100
     AbilityIndex = 1
-    Moves = SURF
-    IV = 15,15,15,15,0,15
-    Nature = JOLLY
-    Item = RINDOBERRY
-Pokemon = BONSLY,18
-    AbilityIndex = 2
-    Moves = BULLDOZE,COPYCAT
-    Nature = TIMID
 #-------------------------------
 #Tournament
 #-------------------------------
@@ -307,3 +313,26 @@ Pokemon = SNEASEL,29
     IV = 15,0,15,15,0,15
     Item = NORMALGEM
 #-------------------------------
+[PICNICKER,Jina,1]
+LoseText = I'm sorry, brother !
+Pokemon = ROSELIA,29
+    AbilityIndex = 1
+    Moves = SLUDGEWAVE
+    Nature = JOLLY
+Pokemon = LOPUNNY,29
+    AbilityIndex = 1
+    Item = STICKYBARB
+    IV = 15,31,15,15,15,15
+    Nature = ADAMANT
+    Moves = BRUTALSWING,SWITCHEROO
+[CAMPER,Joe,1]
+LoseText = Me too, sis' !
+Pokemon = QUAGSIRE,29
+    AbilityIndex = 1
+    Moves = SURF
+    Item = RINDOBERRY
+Pokemon = SUDOWOODO,29
+    AbilityIndex = 2
+    IV = 15,15,15,31,15,15
+    Moves = BULLDOZE,COPYCAT
+    Nature = JOLLY
