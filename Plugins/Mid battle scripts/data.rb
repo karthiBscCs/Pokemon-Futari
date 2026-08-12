@@ -69,23 +69,37 @@ module DialogueModule
 		}
  ##############Woods#####		
         T1JinaJo= Proc.new{|battle|
-          $PokemonTemp.nextturnmoves=[nil,nil,[2,3],[0,1],nil,nil,0] #sudo attacks buneary
+          $PokemonTemp.nextturnmoves=[nil,[3,3],[2,3],[0,1],nil,nil,0] #sudo attacks buneary
+          battle.scene.appearBar
+          battle.scene.pbShowOpponent(0,true)
+		  pbMessage("\\xn[Jina]\\rJoe ! Get over here, I'll teach you some manners!")
+          battle.scene.pbHideOpponent
+		  battle.scene.disappearBar
         }
-        JinaTurn0 = {"text"=>"\\xn[Jina]\\rJoe ! Get over here, I'll teach you some manners!","bar"=>true}
-        JoAttacks0 = {"text"=>"\\xn[Joe]\\bWe'll see if you're still acting like the smartest after this, Jina ! Sudowoodo, use Ultra-Megalaser of the dead!","bar"=>true}
+
+        JoAttacks0 = Proc.new{|battle|
+          battle.scene.appearBar
+          battle.scene.pbShowOpponent(1)
+		  pbMessage("\\xn[Joe]\\bWe'll see if you're still acting like the smartest after this, Jina ! Sudowoodo, use Ultra-Megalaser of the dead!")
+          battle.scene.pbHideOpponent(2) #(NB : pbHide adds 1 to index for no reason)
+		  battle.scene.disappearBar
+          battle.battlers[3].pbRaiseStatStage(:ACCURACY,1,battle.battlers[3])
+        }
         
         T2JinaJo= Proc.new{|battle|
-          $PokemonTemp.nextturnmoves=[nil,[0,3],[3,1],[0,1],nil,1] #budew attacks sudo or quag, sudo attacks budew
+          $PokemonTemp.nextturnmoves=[nil,[0,3],[3,1],[0,1],nil,nil,1] #budew attacks sudo or quag, sudo attacks budew
         }
-        JinaAttacks1=Proc.new{|battle|
+        JinaEnd=Proc.new{|battle|
 		battle.scene.appearBar
-        battle.scene.pbShowOpponent(0,true)
+        battle.scene.pbShowOpponent(0)
 		pbMessage("\\xn[Jina]\\rThis is my payback!")
         battle.scene.pbHideOpponent
-        battle.scene.pbShowOpponent(1,true)
+        battle.scene.pbShowOpponent(1)
         pbMessage("\\xn[Joe]\\bWe should stop this Jina...!")
-        battle.scene.pbHideOpponent
+        battle.scene.pbHideOpponent(2)
+        battle.scene.pbShowOpponent(0)
         pbMessage("\\xn[Jina]\\r...")
+        battle.scene.pbHideOpponent
 		battle.scene.disappearBar
 		}
 # DONT DELETE THIS END
