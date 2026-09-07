@@ -84,7 +84,7 @@ module QuestModule
     :Location2 => "Apariah Marsh",
     :Stage3 => "Treat the injured Pokémon.",
     :Location3 => "Home",
-    :QuestDescription => "After finding an injured Pokémon with a fever, Karen decides not to move it. The Elder may know of a special medicinal herb that could help it recover.",
+    :QuestDescription => "After finding an injured Pokémon with a fever, The Elder may know of a special medicinal herb that could help it recover.",
     :RewardString => "???"
   }
 end
